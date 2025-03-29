@@ -1,9 +1,9 @@
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import React from "react";
-import Layout from "./Layout";
+import Layout from "./layout";
 import Home from "./pages/home";
 import About from "./pages/about";
-import Visualiser from './pages/Visualiser'
+import Visualiser from './pages/visualiser'
 
 function App() {
   return (

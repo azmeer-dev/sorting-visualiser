@@ -3,10 +3,11 @@ import * as motion from "motion/react-client"
 import { FaRandom, FaPlay } from "react-icons/fa"
 
 export default function Visualiser() {
-  const [array, setArray] = useState([])
-  const [size, setSize] = useState(25)
-  const [speed, setSpeed] = useState(100)
-  const [isSorting, setIsSorting] = useState(false)
+  const [array, setArray] = useState([]);
+  const [size, setSize] = useState(25);
+  const [speed, setSpeed] = useState(100);
+  const [isSorting, setIsSorting] = useState(false);
+  motion; // Fix for motion import
 
   useEffect(() => {
     generateArray()
